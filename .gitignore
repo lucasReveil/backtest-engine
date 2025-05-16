@@ -1,0 +1,43 @@
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv
+env/
+venv/
+*.egg-info/
+.DS_Store
+
+# Jupyter / notebooks
+.ipynb_checkpoints
+
+# Dash & logs
+*.log
+*.sqlite
+
+# Sweep results
+sweep_results.csv
+sweep_*.csv
+scripts/results/
+
+# === C++ ===
+*.o
+*.out
+*.exe
+*.bin
+*.log
+sim  # compiled binary
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# === Data & Generated Files ===
+data/*.csv
+data/*.json
+plots/
+sim
