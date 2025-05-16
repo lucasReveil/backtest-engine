@@ -126,11 +126,10 @@ Rolling metrics used:
 
 ```math
 μ = (1 / n) × Σ x_i    
-
-
+```
+```math
 σ = sqrt[(1 / (n - 1)) × Σ (x_i - μ)²]
 ```
-
 More: [Wikipedia - Bollinger Bands](https://en.wikipedia.org/wiki/Bollinger_Bands)
 
 ---
