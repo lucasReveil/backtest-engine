@@ -125,7 +125,8 @@ Exit on:
 Rolling metrics used:
 
 ```math
-μ = (1 / n) × Σ x_i  
+μ = (1 / n) × Σ x_i
+
 σ = sqrt[(1 / (n - 1)) × Σ (x_i - μ)²]
 ```
 
